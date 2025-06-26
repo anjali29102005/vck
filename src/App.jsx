@@ -7,6 +7,7 @@ import ApplyPage from "./pages/ApplyPage";
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ChatbotComponent from './components/Chatbot/ChatbotComponent';
+import ContactPage from './pages/ContactPage';
 const App =() => {
   return(
     <div>
@@ -17,7 +18,7 @@ const App =() => {
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/courses" element={<CoursesPage/>}/>
-        {/* <Route path="/contact" element={<ContactPage/>}/> */}
+        <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/admission" element={<ApplyPage/>}/>
         </Routes>
         <Footer />
