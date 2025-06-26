@@ -4,7 +4,10 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
+import ApplyPage from "./pages/ApplyPage";
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import ChatbotComponent from './components/Chatbot/ChatbotComponent';
 const App =() => {
   return(
     <div>
@@ -16,9 +19,11 @@ const App =() => {
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/courses" element={<CoursesPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/admission" element={<ApplyPage/>}/>
         </Routes>
+        <Footer />
        </Router>
-
+      <ChatbotComponent />
 
     </div>
   )

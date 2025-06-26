@@ -24,7 +24,7 @@ header .logo:hover {
 header .right {
     display: flex;
     align-items:center;
-    gap: 20 px;
+    gap: 20px;
 
 }
 
@@ -46,8 +46,8 @@ header .right .apply-btn {
     color: #ffffff;
     background-color: #28a745;
     text-decoration: none;
-    padding: 10px 20 px;
-    font-weight: 500;
+    padding: 10px 20px;
+    font-weight: 600;
 
 
 }
