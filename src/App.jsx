@@ -3,11 +3,11 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
-import ContactPage from "./pages/ContactPage";
 import ApplyPage from "./pages/ApplyPage";
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ChatbotComponent from './components/Chatbot/ChatbotComponent';
+import ContactPage from './pages/ContactPage';
 const App =() => {
   return(
     <div>

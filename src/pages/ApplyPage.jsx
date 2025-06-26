@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ApplyPage =() => {
   return(
      <div className="container">
@@ -47,7 +49,9 @@ const ApplyPage =() => {
         
         </ol>
         </div>
-        <p>For detailed information on postgraduate program admissions, specific program syllabi and fee structures, please visit our Courses page or Contact us directly. </p>
+        <p>For detailed information on postgraduate program admissions, specific program syllabi and fee structures, please visit our 
+          <Link to="/courses">Courses page</Link>or
+          <Link to ="/contact">Contact us.</Link>directly. </p>
  </div></div> 
   );
 };
